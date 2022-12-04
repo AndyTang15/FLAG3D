@@ -1,1 +1,1 @@
-# FLAG3D
+# FLAG3D: A 3D Fitness Activity Dataset with Language Instruction

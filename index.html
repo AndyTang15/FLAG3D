@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+  <meta charset="utf-8">
+  <title>FLAG3D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+    body {
+      background-color: #fafafa;
+    }
+    hr {
+      background-color: #f1f1f1;
+    }
+    .table th {
+      padding: 0.2em 0.2em 0 0.2em;
+      width: 50%;
+    }
+    .table td {
+      padding: 0.25em;
+      width: 50%;
+    }
+    .content-block {
+      padding: 0 6px;
+    }
+    .title {
+      font-size: 32px;
+      padding-top: 32px;
+    }
+    .publisher {
+      margin-bottom: 1rem;
+    }
+    .sub-title {
+      font-size: 26px;
+      padding-bottom: 16px;
+    }
+    .subsub-title {
+      font-size: 20px;
+      padding-bottom: 8px;
+    }
+    .author {
+      font-size: 16px;
+    }
+    .action {
+      padding-bottom: 12px;
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="app">
+    <div class="columns">
+      <div class="column" :class="[content, offset]">
+
+        <h1 class="title has-text-centered" style="margin: 0.8rem">
+          FLAG3D: A 3D Fitness Activity Dataset with Language Instruction
+        </h1>
+
+        <div class="has-text-centered" style="padding: 0 16px;">
+          <table style="width: 40%; margin:auto">
+            <tbody>
+              <tr>
+                <td><p class="author"><a href="https://andytang15.github.io/">Yansong Tang</a><sup>*, &#10013, 1</sup></p></td>
+                <td><p class="author">Jinpeng Liu</a><sup>*, 1</sup></p></td>
+                <td><p class="author">Aoyang Liu</a><sup>*, 1</sup></p></td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width: 60%; margin:auto">
+            <tbody>
+              <tr>
+                <td><p class="author">Bin Yang</a><sup>1</sup></p></td>
+                <td><p class="author">Wenxun Dai</a><sup>1</sup></p></td>
+                <td><p class="author"><a href="https://raoyongming.github.io/">Yongming Rao</a><sup>2</sup></p></td>
+                <td><p class="author"><a href="https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1">Jiwen Lu</a><sup>&#9674, 2</sup></p></td>
+                <td><p class="author"><a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1">Jie Zhou</a><sup>2</sup></p></td>
+                <td><p class="author"><a href="https://scholar.google.com/citations?hl=zh-CN&user=Xrh1OIUAAAAJ&view_op=list_works&sortby=pubdate">Xiu Li</a><sup>&#9674, 1</sup></p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p style="font-size: 16px; padding-bottom: 0.5em;">* equal contribution, &#10013 project lead, &#9674 corresponding authors</p>
+
+          <p style="font-size: 16px;">
+            {<sup>1</sup>Shenzhen International Graduate School, <sup>2</sup>Department of Automation}, Tsinghua University<br>
+          </p>
+
+          <div style="margin: 16px 0; font-size: 18px;">
+            <p>  <a href="">arXiv</a> &nbsp;
+              <!-- |&nbsp; <a href="">Code</a> &nbsp;|&nbsp; <a href="">Data</a>  -->
+            </p>
+          </div>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <iframe src="https://embed.wave.video/SzPSI3z3DirJY7iT" height="540" width="963" frameborder="0" allow="autoplay; fullscreen" scrolling="no"></iframe>
+          </div>
+        <!-- </p> -->
+        <hr>
+          <div class="has-text-centered content-block">
+            <h2 class="sub-title"><b>Abstract</b></h2>
+            <p style="text-align:justify">
+              With the continuously thriving popularity around the world, fitness activity analytic has become an emerging research topic in computer vision. While a variety of new tasks and algorithms have been proposed recently, there are growing hunger for data resources involved in high-quality data, fine-grained labels, and diverse environments. In this paper, we present FLAG3D, a large-scale 3D fitness activity dataset with language instruction containing 180K sequences of 60 categories. FLAG3D features the following three aspects: <b>1)</b> accurate and dense 3D human pose captured from advanced MoCap system to handle the complex activity and large movement, <b>2)</b> detailed and professional language instruction to describe how to perform a specific activity, <b>3)</b> versatile video resources from a high-tech MoCap system, rendering software, and cost-effective smartphones in natural environments. Extensive experiments and in-depth analysis show that FLAG3D contributes great research value for various challenges, such as cross-domain human action recognition, dynamic human mesh recovery, and language-guided human action generation.<b>Our dataset and source code will be publicly available.</b> 
+            </p>
+          </div>
+  
+          <hr>
+  
+          <div class="content-block">
+            <h2 class="sub-title has-text-centered"><b>Dataset</b></h2>
+            <h4 class="subsub-title has-text-left"><b>1. Overview of FLAG3D Dataset</b></h4>
+            <table style="width: 100%; margin:auto">
+              <tr>
+                  <td >
+                    <a href="./figure/teaser.png"><img src="./figure//teaser.png"></img></href></a><br>
+                  </td>
+              </tr>
+              <tr>
+                <p>
+                  FLAG3D contains 180K videos of 60 daily fitness activities. Our dataset is comprised of (a) 3D activity sequences captured from advanced MoCap system, (b) rendered videos of different people with their SMPL parameters, and (c) real-world videos obtained by cost-effective phones from both indoor and outdoor natural environments. FLAG3D also provides a series of detailed and professional sentence-level language instructions for each fitness activity. All figures are best viewed in color.
+                </p>
+              </tr>
+            </table>
+            <h4 class="subsub-title has-text-left"><b>2. Illustration of the Taxonomy </b></h4>
+            <table style="width: 100%; margin:auto">
+              <tr>
+                <td style="text-align: center; vertical-align: middle;">
+                  <a href="./figure/tag.png"><img src="./figure//tag.png"></img></href></a><br>
+                </td>
+              </tr>
+              <tr>
+                <p>
+                  FLAG3D is systematically organized in three levels as body part, fitness activity and language instruction. This figure details a concrete example of the “Squat With Alternate Knee Lift” activity that is mainly driven by the quadriceps femoris muscle of the “Leg”, while the corresponding language instructions are shown in the left.
+                </p>
+              </tr>
+            </table>
+            <h4 class="subsub-title has-text-left"><b>3. Dataset Gallery</b></h4>
+            <table style="width: 75%; margin:auto">
+            <tr>
+              <td>
+                <a href="./figure/show.png"><img src="./figure//show.png"></img></href></a><br>
+              </td>
+            </tr>
+            <tr>
+              <p>
+                Several examples from FLAG3D Dataset. From left to right we display the MoCap data, Original Rendered RGB Videos, and Rendered RGB Videos with SMPL Mesh fitting results.
+              </p>
+            </tr>
+            </table>
+            <h4 class="subsub-title has-text-left"><b>4. Action Classes</b></h4>
+            <table style="width: 80%; margin:auto">
+              <tr>
+                <td style="text-align: center; vertical-align: middle;">
+                   <embed src="./figure/class.pdf" width="1000px" height="600px" />
+                  </td>
+              </tr>
+              <tr>
+                <p>
+                  In total, there are 60 kinds of actions. Selected activities exercise most parts of our body, including the chest, back, shoulder, arm, neck, abdomen, waist, hip, and leg.
+                </p>
+              </tr>
+            </table>
+    
+          </table>
+  
+  <hr>
+  
+          <div class="has-text-centered content-block">
+            <h2 class="sub-title">Bibtex</h2>
+            <p style="text-align:justify">If you find our project useful, please consider citing us:</p>
+            <div style="padding-top: 1rem; text-align: left;">
+  <pre><code>
+  
+  </code></pre>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      
+      <footer class="footer" style="padding: 0 0 1.5rem 0">
+        <div class="columns">
+          <div class="column" :class="[content, offset]">
+            <hr>
+            <!-- <p class="has-text-centered" style="font-size: 0.9em;">This website is designed and coded by the authors. Send feedback and questions to <a href="https://silvester.wang">Zan Wang</a></p> -->
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+<script type="module">
+  import { createApp } from 'vue'
+
+  let app = createApp({
+    data() {
+      return {
+        content: 'is-6',
+        offset: 'is-offset-3'
+      }
+    }
+  }).mount('#app')
+
+  function displayWindowSize() {
+    let w = document.documentElement.clientWidth;
+    console.log(w)
+    let c;
+    let o;
+    if (w >= 1200) {
+      c = 'is-6'
+      o = 'is-offset-3'
+    } else {
+      if (w >= 900) {
+        c = 'is-8'
+        o = 'is-offset-2'
+      } else {
+        c = 'is-10'
+        o = 'is-offset-1'
+      }
+    }
+    app.$data.content = c
+    app.$data.offset = o
+  }
+  window.addEventListener("resize", displayWindowSize);
+  displayWindowSize();
+</script>
+
+</html>

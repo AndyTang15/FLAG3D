@@ -63,7 +63,7 @@
         <h1 class="title has-text-centered" style="margin: 0.8rem">
           FLAG3D: A 3D Fitness Activity Dataset with Language Instruction
         </h1>
-
+        <p class="publisher has-text-centered">CVPR 2023</p>
         <div class="has-text-centered" style="padding: 0 16px;">
           <table style="width: 40%; margin:auto">
             <tbody>
@@ -94,10 +94,11 @@
           </p>
 
           <div style="margin: 16px 0; font-size: 18px;">
-            <p>  <a href="https://arxiv.org/abs/2212.04638">arXiv</a> &nbsp;
+            <p>  <a href="https://arxiv.org/abs/2212.04638">arXiv</a> |&nbsp; <a href="#data">Data</a>
               <!-- |&nbsp; <a href="">Code</a> &nbsp;|&nbsp; <a href="">Data</a>  -->
             </p>
           </div>
+          
         </div>
         <br>
         
@@ -147,13 +148,13 @@
             <table style="width: 75%; margin:auto">
             <tr>
               <td>
-                <a href="./figure/show.png"><img src="./figure//show.png"></img></href></a><br>
+                  <a href="./figure/show.png"><img src="./figure//show.png"></img></href></a><br>
               </td>
             </tr>
             <tr>
-              <p>
-                Several examples from FLAG3D Dataset. From left to right we display the MoCap data, Original Rendered RGB Videos, and Rendered RGB Videos with SMPL Mesh fitting results.
-              </p>
+                <p>
+                  Several examples from FLAG3D Dataset. From left to right we display the MoCap data, Original Rendered RGB Videos, and Rendered RGB Videos with SMPL Mesh fitting results.
+                </p>
             </tr>
             </table>
             <h4 class="subsub-title has-text-left"><b>4. Action Classes</b></h4>
@@ -161,7 +162,7 @@
               <tr>
                 <td style="text-align: center; vertical-align: middle;">
                    <embed src="./figure/class.pdf" width="1000px" height="600px" />
-                  </td>
+                </td>
               </tr>
               <tr>
                 <p>
@@ -170,8 +171,31 @@
               </tr>
             </table>
     
-          </table>
+          </div>
+        <hr>
+
+          <div class="content-block">   
+            <div id="data"><h2 class="sub-title  has-text-centered"><b>Download</b></h2></div>
+             <br>
+            <table style="width: 80%; margin:auto">
+              <tr>
+                <p>
+                  FLAG3D is a 3D fitness activity dataset composed of the following parts:<br>
+                  &#8226 SMPL <br>
+                  &#8226 Skeleton <br>
+                  &#8226 Language <br>
+                  &#8226 Video from Nature Scene <br>
+                  &#8226 Rendering Video (subset): We share a subset of it which contains 1800 videos because of the data size. If you needs more, please email us.<br>
+                  &#8226 Raw Data: Raw data from MoCap software. You can work with it in rendering software like <a href="https://unity.com/">Unity</a>. <br> <br> 
+                  If interested, please ask your advisor or the representative of your organization to sign this <a target="_blank" href="./License_FLAG3D.pdf">license agreement</a>, and send the electronic scan to <a href="mailto:liujp22@mails.tsinghua.edu.cn" title="">liujp22@mails.tsinghua.edu.cn</a> to obtain the dataset.
+                  For more information, please refer to our <a href="https://arxiv.org/abs/2212.04638">paper</a>. 
+                </p>
+              </tr>
+            </table>
+          </div>
+
   
+
   <hr>
   
           <div class="has-text-centered content-block">
@@ -179,12 +203,12 @@
             <p style="text-align:justify">If you find our project useful, please consider citing us:</p>
             <div style="padding-top: 1rem; text-align: left;">
   <pre><code>
-@article{tang2022flag3d,
-    title={FLAG3D: A 3D Fitness Activity Dataset with Language Instruction},
-    author={Yansong Tang and Jinpeng Liu and Aoyang Liu and Bin Yang and Wenxun Dai and Yongming Rao and Jiwen Lu and Jie Zhou and Xiu Li},
-    journal={arXiv preprint arXiv:2212.04638},
-    year={2022}
-}
+@inproceedings{flag3d_cvpr,
+  title={FLAG3D: A 3D Fitness Activity Dataset with Language Instruction},
+  author={Yansong Tang and Jinpeng Liu and Aoyang Liu and Bin Yang and Wenxun Dai and Yongming Rao and Jiwen Lu and Jie Zhou and Xiu Li},
+  booktitle={CVPR},
+  year={2023},
+}      
   </code></pre>
             </div>
           </div>

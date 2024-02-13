@@ -16,7 +16,7 @@
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a>
-        Bin Yang<sup>2</sup>
+        Bin Yang<sup>1</sup>
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a>
@@ -28,8 +28,8 @@
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a href="https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1">
-        Jiwen Lu<sup>2</sup>
-    </a>
+        Jiwen Lu<sup>1</sup>
+    </a>&emsp;
     <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1">
         Jie Zhou<sup>1</sup>
     </a>&emsp;
@@ -39,7 +39,7 @@
     <!-- </br>Tsinghua University -->
     </li>&emsp;
     <br>
-    <sup>1</sup>Tsinghua University &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>Microsoft
+    <sup>1</sup>Tsinghua University
 </div>
 
 <strong><a href='https://moonsliu.github.io/Pro-Motion/' target='_blank'>Project Page</a></strong>&emsp;

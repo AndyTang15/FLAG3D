@@ -1,0 +1,25 @@
+feats:
+  accuracy_gen:
+  - '0.0806723'
+  accuracy_gt:
+  - '0.0806723'
+  accuracy_gt2:
+  - '0.0773109'
+  diversity_gen:
+  - '6.22454'
+  diversity_gt:
+  - '1.94843'
+  diversity_gt2:
+  - '2.08833'
+  fid_gen:
+  - '27.6313'
+  fid_gt:
+  - '-1.93443e-10'
+  fid_gt2:
+  - '0.015236'
+  multimodality_gen:
+  - '6.17137'
+  multimodality_gt:
+  - '1.84214'
+  multimodality_gt2:
+  - '1.92964'

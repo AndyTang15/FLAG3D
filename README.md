@@ -45,5 +45,5 @@
 <strong><a href='https://andytang15.github.io/FLAG3D/' target='_blank'>Project Page</a></strong>&emsp;
 <strong><a href='https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_FLAG3D_A_3D_Fitness_Activity_Dataset_With_Language_Instruction_CVPR_2023_paper.pdf'>Paper</a></strong>&emsp;
 
-![teaser](images/teaser.png)
-![pipeline](images/pipeline.png)
+![teaser](figure/teaser.png)
+![tag](figure/tag.png)

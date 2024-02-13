@@ -25,7 +25,7 @@
     <!-- </br>Tsinghua University -->
     <a href="https://raoyongming.github.io/">
         Yongming Rao
-    </a>&emsp;
+    </a>
     <!-- </br>Tsinghua University -->
   <br>
     <a href="https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1">
@@ -36,9 +36,9 @@
     </a>&emsp;
       <a href="https://scholar.google.com/citations?hl=zh-CN&user=Xrh1OIUAAAAJ&view_op=list_works&sortby=pubdate">
         Xiu Li
-    </a>&emsp;
+    </a>
     <!-- </br>Tsinghua University -->
-    </li>&emsp;
+    </li>
     <br>
     Tsinghua University
 </div>

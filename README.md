@@ -5,45 +5,45 @@
 
 <div>
     <a href="https://andytang15.github.io/">
-        Yansong Tang*<sup>1</sup>
+        Yansong Tang*
     </a>&emsp;
     <a href="https://moonsliu.github.io/">
-        Jinpeng Liu*<sup>1</sup>
+        Jinpeng Liu*
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a>
-        Aoyang Liu*<sup>1</sup>
+        Aoyang Liu*
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a>
-        Bin Yang<sup>1</sup>
+        Bin Yang
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a>
-        Wenxun Dai<sup>1</sup>
+        Wenxun Dai
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a href="https://raoyongming.github.io/">
-        Yongming Rao<sup>1</sup>
+        Yongming Rao
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     <a href="https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1">
-        Jiwen Lu<sup>1</sup>
+        Jiwen Lu
     </a>&emsp;
     <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1">
-        Jie Zhou<sup>1</sup>
+        Jie Zhou
     </a>&emsp;
-      <a https://scholar.google.com/citations?hl=zh-CN&user=Xrh1OIUAAAAJ&view_op=list_works&sortby=pubdate">
-        Xiu Li<sup>1</sup>
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=Xrh1OIUAAAAJ&view_op=list_works&sortby=pubdate">
+        Xiu Li
     </a>&emsp;
     <!-- </br>Tsinghua University -->
     </li>&emsp;
     <br>
-    <sup>1</sup>Tsinghua University
+    Tsinghua University
 </div>
 
-<strong><a href='https://moonsliu.github.io/Pro-Motion/' target='_blank'>Project Page</a></strong>&emsp;
-<strong><a href='https://arxiv.org/pdf/2312.14828.pdf'>Paper(arXiv)</a></strong>&emsp;
+<strong><a href='https://andytang15.github.io/FLAG3D/' target='_blank'>Project Page</a></strong>&emsp;
+<strong><a href='https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_FLAG3D_A_3D_Fitness_Activity_Dataset_With_Language_Instruction_CVPR_2023_paper.pdf'>Paper</a></strong>&emsp;
 
 ![teaser](images/teaser.png)
 ![pipeline](images/pipeline.png)

@@ -1,1 +1,0 @@
-from .stgcn_recognizer import STGCN_RECOGNIZER
